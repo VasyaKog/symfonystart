@@ -1,0 +1,21 @@
+vasya_kog_blog_homepage:
+    path:     /
+    defaults: { _controller: VasyaKogBlogBundle:Page:index }
+    requirements:
+      methods: GET
+vasya_kog_blog_about:
+    path:     /about
+    defaults: { _controller: VasyaKogBlogBundle:Page:about }
+    requirements:
+      methods: GET
+vasya_kog_blog_contact:
+    path:  /contact
+    defaults: { _controller: VasyaKogBlogBundle:Page:contact }
+    requirements:
+        methods:  GET|POST
+vasya_kog_blog_blog_show:
+    path:  /{id}
+    defaults: { _controller: VasyaKogBlogBundle:Blog:show}
+    requirements:
+        methods:  GET
+        id: \d+

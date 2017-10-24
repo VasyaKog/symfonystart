@@ -1,0 +1,7 @@
+vasya_kog_blog:
+    resource: "@VasyaKogBlogBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
+
+

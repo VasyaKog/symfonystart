@@ -1,0 +1,4 @@
+services:
+#    vasya_kog_blog.example:
+#        class: VasyaKog\BlogBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
